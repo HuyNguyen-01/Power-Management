@@ -1,0 +1,212 @@
+(footprint "V-DFN3020-13"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -1.086 2.47 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d447ba0b-b265-464c-904a-ff983556fa7e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "AP63356QZV-7"
+		(at -1.21 2.842 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2385ad74-a81c-4b38-81cc-a23514f1d72a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e8a153f6-9c4c-4095-945f-4b5c8ea5eff6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "DCDC CONV HV BUCK 3.5A 32VIN"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3f862a02-07b1-4f09-9af0-c2eadd8c9626")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Digikey" "31-AP63356QZV-7CT-ND"
+		(at 29.032 185.052 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "57281a83-fb18-411d-bca9-01ceb9631231")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "Diodes Incorporated"
+		(at 29.032 185.052 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "085ad5f9-678b-40b6-9ab5-d92bb82d87b8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.4 -1.7)
+		(end -1.4 -1.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "eff94680-90ff-4991-bbe1-c2c0af23af4c")
+	)
+	(fp_line
+		(start -1 -1.7)
+		(end -1.4 -1.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "83194e84-b847-4816-82c0-9eeb4c595b72")
+	)
+	(fp_line
+		(start 1 1.7)
+		(end 1.4 1.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "23629573-e7ef-4e0c-84b1-21465c914452")
+	)
+	(fp_line
+		(start 1.4 1.7)
+		(end 1.4 1.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "37d17d6c-0b7b-4b31-b33b-1c8484b9b64e")
+	)
+	(fp_rect
+		(start -1.05 -1.3)
+		(end -0.75 -0.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "627ab94e-6e68-45c8-9e12-8dff45b789e8")
+	)
+	(fp_rect
+		(start -0.1 -1.5)
+		(end 0.1 -0.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "71fd23b5-ea2b-4ce6-b668-59bf3da2be33")
+	)
+	(fp_rect
+		(start 0.75 -1.3)
+		(end 1.05 -0.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "01afa6c5-3fc4-4525-81d2-dc598edbfe9a")
+	)
+	(pad "1" smd rect
+		(at -0.75 -0.6875)
+		(size 0.8 1.45)
+		(layers "F.Cu" "F.Mask")
+		(uuid "2ead29f7-2f76-47ce-b0e5-c4585a58ecb3")
+	)
+	(pad "2" smd rect
+		(at -0.85 0.3625)
+		(size 0.6 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "83c9ebdf-b906-47f9-979b-ffc7af8fc3d0")
+	)
+	(pad "3" smd rect
+		(at -0.85 0.8125)
+		(size 0.6 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6cea722e-6472-42a9-8352-c0d417b0fac2")
+	)
+	(pad "4" smd rect
+		(at -0.85 1.2625)
+		(size 0.6 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7c5d320c-4021-490c-8e82-b70bd2eb4b6e")
+	)
+	(pad "5" smd rect
+		(at 0.85 1.2625)
+		(size 0.6 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "387dc716-a2f7-4829-bb5f-6d237a277b61")
+	)
+	(pad "6" smd rect
+		(at 0.85 0.8125)
+		(size 0.6 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5ab0b28b-d4bc-4f43-921e-893e3a3abeac")
+	)
+	(pad "8" smd rect
+		(at 0.75 -0.6875)
+		(size 0.8 1.45)
+		(layers "F.Cu" "F.Mask")
+		(uuid "4514cc53-5cb4-4861-9cfe-6bb4e228314a")
+	)
+	(pad "9" smd rect
+		(at 0 -0.825 90)
+		(size 1.725 0.3)
+		(layers "F.Cu" "F.Mask")
+		(uuid "dfa2b987-8947-43bb-8720-27c9ca02cdbf")
+	)
+	(embedded_fonts no)
+	(model "${RM_LIB}/3Dmodels/V-DFN3020.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 180)
+		)
+	)
+)

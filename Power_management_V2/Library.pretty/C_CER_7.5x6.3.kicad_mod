@@ -1,0 +1,187 @@
+(footprint "C_CER_7.5x6.3"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.75 0 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "0ed3db34-0bba-44cc-9bb6-e22c1c6d3e37")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "22u"
+		(at 0.1 5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ac0b1e89-7a47-4466-8938-63bbac40a951")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9026cd8b-a1b0-463e-82a9-b81d7f9304a5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Unpolarized capacitor"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a7caf738-b67a-4c45-a81a-933ddfb5321c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Coefficient" "X79"
+		(at 55 185.5 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "02d361af-2698-48f5-8bb4-ee23f1c08fab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Digikey" "445-174338-1-ND"
+		(at 55 185.5 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fb985134-ddc1-4af2-8767-9cc7cd613faf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "United Chemi-Con"
+		(at 55 185.5 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f3e672c2-b1f4-40bd-a76b-47b42089e681")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Part" "KTS500B226M76N0T00"
+		(at 55 185.5 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d33fdd70-28e5-47ac-abfb-15188d41e9cc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Tolerance" "20"
+		(at 55 185.5 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b8682cab-a7af-46cf-8b21-f7cd7874b1ef")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Voltage" "50"
+		(at 55 185.5 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "159e2fee-5830-43a7-bc57-fbd3827cf468")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -5.2 -3.9)
+		(end 5.2 3.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "d54678b1-98dd-4f2a-ac7c-a22fad278b98")
+	)
+	(fp_rect
+		(start -3.75 -3.15)
+		(end 3.75 3.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "3e53c613-0653-49f7-866a-f26f12ebc198")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.1 0.1 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f7da0651-a88d-4c29-8926-442d2b768b88")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -3.25 0)
+		(size 2.8 6.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "3f7e1071-57ca-46f8-bac8-f8d7988128b4")
+	)
+	(pad "2" smd roundrect
+		(at 3.25 0)
+		(size 2.8 6.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "e615d84e-4c64-462f-bf9a-620a82760736")
+	)
+	(embedded_fonts no)
+	(model "${RM_LIB}/3Dmodels/box_7.5x6.3x4.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,180 @@
+(footprint "2POS_2.54_RA_TH_TE_5-104361-1"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "2 Position 2.54mm pitch right angle male shrouded header connector with board lock and retainer")
+	(tags "header rectangular latch te right angle ")
+	(property "Reference" "REF**"
+		(at -6 0 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9a425b48-b439-4fc6-be18-de07eaf3f476")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Conn_01x02"
+		(at 0 5.08 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2d9c6e97-ff02-4acf-9743-34ec6a8bafee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "416d19f4-2c48-4c15-a2bd-0e14d54141af")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5334619b-e13e-45c3-b47a-27e3582adbdd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Digikey" "A33961-ND"
+		(at 21.08 238.58 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f6f2818b-5d69-48e0-9379-3ea10c4e0d9a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "TE Connectivity AMP Connectors"
+		(at 21.08 238.58 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b05a5b45-a4a2-40f5-b8a5-d2c9c9286424")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Part" "5-104361-1"
+		(at 21.08 238.58 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5a37dafb-468b-4740-a974-72b7594c4b2c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start 8.9 -4.2)
+		(end -4.9 4.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "147b664d-5cb8-4ee8-a32b-32edd6a60958")
+	)
+	(fp_rect
+		(start 9.2 -4.45)
+		(end -5.2 4.45)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "51e5088b-2e70-4b06-98b5-4f88e9438917")
+	)
+	(fp_rect
+		(start 8.9 -4.2)
+		(end -4.9 4.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "65a68620-54bd-4078-b6d4-405d7ec1cbc2")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f20cd953-153c-4771-813a-c99139f7b2a6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 4.89 -2.67)
+		(size 2.8 2.8)
+		(drill 2.36)
+		(layers "*.Mask")
+		(uuid "462cc441-2a0a-4929-8773-c7772f3f77c3")
+	)
+	(pad "" np_thru_hole circle
+		(at 4.89 2.67)
+		(size 2.8 2.8)
+		(drill 2.36)
+		(layers "*.Mask")
+		(uuid "b3e0914d-768f-4079-89b5-de8bce82b877")
+	)
+	(pad "1" thru_hole circle
+		(at -3.75 -1.27)
+		(size 1.8 1.8)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "91f71fea-66cc-428f-aee2-794f183756b1")
+	)
+	(pad "2" thru_hole circle
+		(at -3.75 1.27)
+		(size 1.8 1.8)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "38d5d0d3-cca1-4f70-99b7-fe081692caf6")
+	)
+	(embedded_fonts no)
+	(model "${RM_LIB}/3Dmodels/c-5-104361-1-t-3d.stp"
+		(offset
+			(xyz 8.9 0 3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -90)
+		)
+	)
+)
