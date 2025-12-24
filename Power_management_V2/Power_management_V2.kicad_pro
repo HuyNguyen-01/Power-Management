@@ -470,7 +470,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "New_Library"
+    ]
   },
   "meta": {
     "filename": "Power_management_V2.kicad_pro",

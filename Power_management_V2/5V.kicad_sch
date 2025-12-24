@@ -5,12 +5,9 @@
 	(uuid "77eada1f-96fe-4eb5-a753-8723f3b84f2d")
 	(paper "A4")
 	(title_block
+		(title "Diptek Power Board V2")
 		(date "2025-08-26")
-		(rev "1")
-		(company "Raw Matter IO Pty Ltd")
-		(comment 1 "Preliminary Design")
-		(comment 2 "Released for discussion")
-		(comment 3 "C28 updated")
+		(rev "2")
 	)
 	(lib_symbols
 		(symbol "Device:C"
@@ -1416,28 +1413,28 @@
 		(uuid "c71076c7-744f-458f-9bfa-bb771a9f2498")
 	)
 	(junction
-		(at 106.045 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d6cbb19d-7df6-48dc-8731-84bab3e940cb")
-	)
-	(junction
 		(at 259.08 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e3b842bb-db59-45b0-aa93-fcd98daa45f4")
 	)
 	(junction
-		(at 137.16 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e9fd4f70-7041-4df1-b28e-90f97005e03f")
-	)
-	(junction
 		(at 190.5 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ee08cf05-ed2f-418b-85bd-cf45acc0cbd5")
+	)
+	(no_connect
+		(at 137.16 95.25)
+		(uuid "27394f2d-78f2-4758-9b5c-79b970ba5de5")
+	)
+	(no_connect
+		(at 137.16 100.33)
+		(uuid "8c289380-cb2a-48be-b140-20e4f05d5d10")
+	)
+	(no_connect
+		(at 137.16 97.79)
+		(uuid "c95f3469-a44a-4981-9946-5986bccbae2d")
 	)
 	(wire
 		(pts
@@ -1551,7 +1548,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.745 76.2) (xy 139.7 76.2)
+			(xy 113.03 76.2) (xy 139.7 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1568,16 +1565,6 @@
 			(type default)
 		)
 		(uuid "31d55a70-7951-43e7-bd25-361aa8e07e40")
-	)
-	(wire
-		(pts
-			(xy 111.125 76.2) (xy 106.045 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3201340c-5da9-4313-8bdb-5742ce5545b3")
 	)
 	(wire
 		(pts
@@ -1628,16 +1615,6 @@
 			(type default)
 		)
 		(uuid "439f5a47-856c-406e-929b-77cbde5ae403")
-	)
-	(wire
-		(pts
-			(xy 91.44 68.58) (xy 106.045 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4485ee63-03f8-4d6d-a75b-7efdd9036b9c")
 	)
 	(wire
 		(pts
@@ -1761,26 +1738,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 97.79) (xy 137.16 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d590800-eeac-4247-bc47-2e95f0e83d6b")
-	)
-	(wire
-		(pts
-			(xy 137.16 95.25) (xy 137.16 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9487eb17-257f-448f-bf41-10451e6f38d4")
-	)
-	(wire
-		(pts
 			(xy 72.39 76.2) (xy 81.28 76.2)
 		)
 		(stroke
@@ -1851,16 +1808,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.045 76.2) (xy 106.045 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b05a7243-aa82-4853-a358-e9b47283f28e")
-	)
-	(wire
-		(pts
 			(xy 161.29 111.76) (xy 163.83 111.76)
 		)
 		(stroke
@@ -1881,7 +1828,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.045 68.58) (xy 139.7 68.58)
+			(xy 91.44 68.58) (xy 139.7 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2058,6 +2005,17 @@
 			(type default)
 		)
 		(uuid "f5aec43c-2670-445a-b694-9379976aaa46")
+	)
+	(hierarchical_label "EN_5V"
+		(shape input)
+		(at 113.03 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "07127dda-0630-4b26-9318-cb48e194a683")
 	)
 	(hierarchical_label "VBAT"
 		(shape input)
@@ -3276,119 +3234,6 @@
 			(project "Power_management_V2"
 				(path "/632966f8-0e72-49d8-ae31-468f807051b0/72d31167-e5b9-4ad1-a5a3-7c9d97c1c508"
 					(reference "R14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 114.935 76.2 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6b9ccf02-78bf-4503-b1de-9f7c8e0973b4")
-		(property "Reference" "R8"
-			(at 114.935 70.485 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100k/0603"
-			(at 114.935 73.025 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Library:R_0603_1608Metric"
-			(at 114.935 77.978 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.935 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 114.935 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "311-100KHRCT-ND"
-			(at 114.935 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" "1/16"
-			(at 114.935 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 114.935 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 114.935 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "RC0603FR-07100KL"
-			(at 114.935 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "eb13da09-b651-4641-9d2c-394f88636747")
-		)
-		(pin "2"
-			(uuid "39a56205-b5a9-4784-a181-e2da767d25f5")
-		)
-		(instances
-			(project "Power_management_V2"
-				(path "/632966f8-0e72-49d8-ae31-468f807051b0/72d31167-e5b9-4ad1-a5a3-7c9d97c1c508"
-					(reference "R8")
 					(unit 1)
 				)
 			)
