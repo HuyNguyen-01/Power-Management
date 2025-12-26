@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 2.0,
-          "height": 5.0,
-          "width": 5.0
+          "drill": 0.3,
+          "height": 0.5,
+          "width": 0.5
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -59,48 +59,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "clearance|141075000|59897000|960ef17d-3aa6-4bfe-9d35-2684d5023607|66545cfb-9290-4fe9-a7ae-ba6bffeeba45",
-          ""
-        ],
-        [
-          "clearance|141075000|60347000|bb10d019-ef14-499e-8880-a3a22fa1f36a|66545cfb-9290-4fe9-a7ae-ba6bffeeba45",
-          ""
-        ],
-        [
-          "clearance|141075000|61047000|03af3161-6b30-42c2-b9c2-2d449bd8f0d1|66545cfb-9290-4fe9-a7ae-ba6bffeeba45",
-          ""
-        ],
-        [
-          "clearance|141075000|61497000|8bbcfd17-d97d-42ea-90e7-0ca9c94ae91d|66545cfb-9290-4fe9-a7ae-ba6bffeeba45",
-          ""
-        ],
-        [
-          "clearance|141075000|61947000|7a3b2cb1-d20d-49a9-93d0-6da4d4ceb744|66545cfb-9290-4fe9-a7ae-ba6bffeeba45",
-          ""
-        ],
-        [
-          "solder_mask_bridge|141075000|59897000|66545cfb-9290-4fe9-a7ae-ba6bffeeba45|960ef17d-3aa6-4bfe-9d35-2684d5023607",
-          ""
-        ],
-        [
-          "solder_mask_bridge|141075000|60347000|66545cfb-9290-4fe9-a7ae-ba6bffeeba45|bb10d019-ef14-499e-8880-a3a22fa1f36a",
-          ""
-        ],
-        [
-          "solder_mask_bridge|141075000|61047000|66545cfb-9290-4fe9-a7ae-ba6bffeeba45|03af3161-6b30-42c2-b9c2-2d449bd8f0d1",
-          ""
-        ],
-        [
-          "solder_mask_bridge|141075000|61497000|66545cfb-9290-4fe9-a7ae-ba6bffeeba45|8bbcfd17-d97d-42ea-90e7-0ca9c94ae91d",
-          ""
-        ],
-        [
-          "solder_mask_bridge|141075000|61947000|66545cfb-9290-4fe9-a7ae-ba6bffeeba45|7a3b2cb1-d20d-49a9-93d0-6da4d4ceb744",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -615,7 +574,7 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Footprint",
           "name": "Footprint",
           "show": true
@@ -624,13 +583,13 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Digikey",
           "name": "Digikey",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -679,6 +638,12 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DIGIKEY",
+          "name": "DIGIKEY",
+          "show": true
         }
       ],
       "filter_string": "",

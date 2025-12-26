@@ -1,0 +1,221 @@
+(footprint "Milwaukee 18V battery connector R1"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9542cec1-bc57-460c-9835-bd715f240923")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Milwaukee 18V battery connector R1"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e60dc3d4-f5a0-4a2a-a2c2-bf22c5b382c6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ac2c4eda-d6f1-4d70-b4d1-84075e649622")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d215e5f3-37a1-44e0-88d6-f1b9099ac04f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -17.25 -14.254)
+		(end -17.25 -9.254)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "713dabed-ba60-4d1a-a66a-9a0f17203251")
+	)
+	(fp_line
+		(start -12.25 -14.254)
+		(end -17.25 -14.254)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "efc53820-6941-4348-82ed-be6622cabe96")
+	)
+	(fp_line
+		(start 12.25 -14.254)
+		(end 17.25 -14.254)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "1eb86e6a-e070-428e-ab3f-ca875855be22")
+	)
+	(fp_line
+		(start 17.25 -14.254)
+		(end 17.25 -9.254)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "622d682e-5b1c-4840-8310-fb9342ecfe64")
+	)
+	(fp_rect
+		(start -18.022 -14.974)
+		(end 18.022 14.974)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "B.CrtYd")
+		(uuid "5f4bd5ff-738a-40c3-832f-d8d66cd9b9da")
+	)
+	(fp_line
+		(start -16.73 -13.824)
+		(end -16.73 -8.824)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "a21ad426-b789-4f9e-93a6-325d1de8356d")
+	)
+	(fp_line
+		(start -11.73 -13.824)
+		(end -16.73 -13.824)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "2640f7ac-dbcd-44b5-ab32-5db0b980aeee")
+	)
+	(fp_line
+		(start 11.74 -13.824)
+		(end 16.68 -13.824)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "5a6e8437-1345-46a5-80b3-ac5fb32f6417")
+	)
+	(fp_line
+		(start 16.68 -13.824)
+		(end 16.68 -8.824)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "d180f2bf-582b-4381-bac6-edf77e2a83fa")
+	)
+	(fp_text user "-Batt"
+		(at 8.48 -3.038 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "35447a61-438f-4f78-a569-78977ed60207")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "+Batt"
+		(at -7.52 -2.538 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "512ff476-fbf1-478b-8c4e-22f84e8c5ccb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4cf731b3-030d-49f5-8518-8ba75f24b408")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at -11.45 -4.554)
+		(size 4 8.4)
+		(drill oval 1 5.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(clearance 0.8)
+		(zone_connect 2)
+		(uuid "d52f13bc-9703-4a0b-9789-04fbf393d423")
+	)
+	(pad "2" thru_hole roundrect
+		(at 11.45 -5.704)
+		(size 4 8.4)
+		(drill oval 1 5.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(zone_connect 1)
+		(thermal_bridge_width 2.5)
+		(thermal_gap 0.8)
+		(uuid "113580b8-efb6-4563-a5fd-0342a7fa0be5")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3D/M18 Battery Terminal.step"
+		(offset
+			(xyz -20.25 9.5 -29.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 180 -40)
+		)
+	)
+)

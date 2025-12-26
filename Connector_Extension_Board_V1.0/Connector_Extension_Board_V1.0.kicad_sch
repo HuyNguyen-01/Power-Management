@@ -2553,7 +2553,7 @@
 		(uuid "6d51a0e6-acdb-4f5e-846c-a6c0df0f93f5")
 	)
 	(no_connect
-		(at 221.615 135.89)
+		(at 220.98 135.89)
 		(uuid "7390c7b6-2fc7-47ed-bb3c-32910c9dfbad")
 	)
 	(no_connect
@@ -2577,7 +2577,7 @@
 		(uuid "9d600574-98e9-4bf2-b6c0-b8219edb2d0b")
 	)
 	(no_connect
-		(at 221.615 125.73)
+		(at 220.98 125.73)
 		(uuid "a49dcbf8-a3df-407d-b9b4-967205443ed1")
 	)
 	(no_connect
@@ -4187,6 +4187,16 @@
 			(type default)
 		)
 		(uuid "cb9744c8-c7d5-48c4-b559-0ab44d0c8b9d")
+	)
+	(wire
+		(pts
+			(xy 215.9 132.08) (xy 216.535 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd5e2155-cc1f-448f-bf56-057f07c620cb")
 	)
 	(wire
 		(pts
@@ -9242,7 +9252,25 @@
 			"AE8AUABHAGYARAA2AGYANAA3AEEAbQArAFIASABQAFIAagBuADUAcABXAHkAeQBjADYANQBJAEoA"
 			"bgBWAGQAZAAvAGYAdQBYAFQATQBiAGgAbQBHADEAVwB2AFYAOQBQADIAYgBrAGoAbgBhAGwATQBW"
 			"AG0AaQAyAEwAWgBDAEMASgBlADAAMwBBAHYAbABFAEoASABpAEQAaQAyAGMAcABEAGgAYQAxACsA"
-			"dAAxAG8AUwBYAEYAdABnAFYAYwAyACsAMQA1AHgAQgBmAEgAdABiAG0AbQ=="
+			"dAAxAG8AUwBYAEYAdABnAFYAYwAyACsAMQA1AHgAQgBmAEgAdABiAG0AbQA2AGUAbgBwAGQARABv"
+			"AE4ASQBaAFQASQBtAEoAUgBTAFgAZABmAFkAWQA1AG4AagB3AGwASAA5AHYAKwBDAGwAVABOAEYA"
+			"MAByAFAAMAAyAFcAcQA5AEwAKwBoAGYAWQBBAEMAUABPAGgARQB5AFUAaQBUAE0ARAB4AGcAeQAx"
+			"ADcAVgBlADIAMwB4AGkARABSAE4AbQB3AEsAMwB4AGMAcQBvAE0AYwBMACsAcwBSAFIAeAB6AHgA"
+			"ZwBqAEUAbQBmAFoAWQAvAHEANgBvAEsASQBYAHoANgA2AGEAZAAvADgAaQBkAC8AMAByAGIAdABu"
+			"AFQAdAAzAFoAcgBQAFoAWgBEAEkAQgA4AE8ARABCAGcAOQBWAHEATgBaAHYATgBDAGgAOAB0AE0A"
+			"dQBQAGoAdAArAEsAeABqAHYAWgB6AHcAUQB3AGkAYwB1AHYAVwByAGEAWgBwAHAAdABPAHAAaQBF"
+			"AHkAbgBVAHoATQA3AFAAegA4AHYAbAA4AFoANwAzAHoAUgBOADIANwBiAHoAKwBYAHcAWQBoAG0A"
+			"SwBCAHYAcABSAHgATwA2AGIAcQBGAGwATgBYAHMAVgBZAFcARQBYAGgAZwBXADMANABGAFEAUABH"
+			"AGgARAA4AE4AUQBrAGsAUAAyAHAAdwBlAHYAVgBBAHIAdgAxAHcAVABYADUAcABvAGwASwBCAFAA"
+			"QQBNAEEAegBqAGgAQQA5ADcAVwBUAHYAbABnAGIAUgBkAEkAYQArAHQAVABQADkAVgArAHkAawBM"
+			"AHgAWgB3AHAANQBWAHUAcQA1ACsAZgBuADYAMwBWAFgAMQA4AHUAaQBiAFYAbgAyAFYAcwBJAHYA"
+			"eAB1ADgAZQBRAHkANQBlAEgAVwBRAHkAWQBwAE4AOQAwADIAWgB4AG8AdwBNAFoASgBBAFkAUQBn"
+			"AHcARgBsAEEAQQB5AEkAUQBiAFEAawB2AEQATQB1AFMAVgBOAHQARQA0AGEAWQB0ADIASQBVAE8A"
+			"SwBiAHcASABIAEgARQBFAFMAOABXAHgAUwBCAFMAdwB2ADYAYwBjADYAdgBWADYAcwBNAFAAUAAv"
+			"AFQAZQAzADcAcAAxADYALwBiAHQAMgA2AHEANgAyAFcAegBNAGIARABxAGQAMwByADUAOQBlADcA"
+			"MQBlAGUAKwA5ADEANQA0AEkAcgBoAG8ALwBSADQASABMAEUAZABUAEcAZAB0AG0AKwA5ADkAVgBi"
+			"AHgAbABRAE4AWQBMAHAAYwBYAEYAeABkADkAMwA1AGMAegBYADgASQB4AFUAMABvAGgAaABNADEA"
+			"bQBVAHcAcABtAGoAawBhAHIAZgBVAHYAVABlAFAANgBMAFkALwAxAHAAdQ=="
 		)
 	)
 	(label "+5V-3A_2"
@@ -9372,7 +9400,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 193.3702 185.42 0)
 			(effects
 				(font
@@ -9496,7 +9524,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Library:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 272.923 154.94 90)
 			(effects
 				(font
@@ -9806,7 +9834,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Library:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 275.463 104.775 90)
 			(effects
 				(font
@@ -9920,7 +9948,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Library:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 102.87 34.798 90)
 			(effects
 				(font
@@ -10034,7 +10062,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Library:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 96.52 187.198 90)
 			(effects
 				(font
@@ -10279,7 +10307,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Library:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 168.783 203.2 90)
 			(effects
 				(font
@@ -10393,7 +10421,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Library:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 264.795 141.478 90)
 			(effects
 				(font
@@ -10573,7 +10601,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 194.0052 137.16 0)
 			(effects
 				(font
@@ -10762,7 +10790,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Library:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 341.503 194.31 90)
 			(effects
 				(font
@@ -10941,7 +10969,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Library:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 102.87 42.418 90)
 			(effects
 				(font
@@ -11055,7 +11083,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Library:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 105.283 152.4 90)
 			(effects
 				(font
@@ -11300,7 +11328,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Library:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 339.598 107.315 90)
 			(effects
 				(font
@@ -11447,109 +11475,6 @@
 			(project "Connector_Extension_Board_V1.0"
 				(path "/632966f8-0e72-49d8-ae31-468f807051b0"
 					(reference "#PWR082")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "Conn_01x02_2")
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 221.615 81.915 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "25d28315-4dea-4f3a-a54e-7f72e8742ff0")
-		(property "Reference" "Computer1"
-			(at 224.79 81.9149 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "WM11839-ND"
-			(at 224.79 84.4549 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Library:MOLEX_1722871102"
-			(at 221.615 81.915 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 221.615 81.915 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 221.615 81.915 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey" "WM11839-ND"
-			(at 221.615 81.915 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Molex"
-			(at 221.615 81.915 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "1723102202"
-			(at 221.615 81.915 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b637ba0f-dab0-4a79-ac4c-af8eb6775802")
-		)
-		(pin "2"
-			(uuid "d1986029-ba72-4950-b221-3e5989de2be3")
-		)
-		(pin "5"
-			(uuid "f1f27017-687d-4735-a751-e9d442badf36")
-		)
-		(pin "4"
-			(uuid "67832674-0dca-419c-8824-d407b7b27b61")
-		)
-		(instances
-			(project "Connector_Extension_Board_V1.0"
-				(path "/632966f8-0e72-49d8-ae31-468f807051b0"
-					(reference "Computer1")
 					(unit 1)
 				)
 			)
@@ -11713,7 +11638,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DFN-10_3X3_VIS"
+		(property "Footprint" "Library:DFN-10-1EP_3x3mm_P0.5mm_EP1.7x2.5mm"
 			(at 105.41 177.8 0)
 			(effects
 				(font
@@ -11811,7 +11736,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 252.4252 90.17 0)
 			(effects
 				(font
@@ -11935,7 +11860,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 366.0902 185.42 0)
 			(effects
 				(font
@@ -12124,7 +12049,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Library:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 337.058 148.59 90)
 			(effects
 				(font
@@ -12238,7 +12163,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 254.3302 186.055 0)
 			(effects
 				(font
@@ -12426,7 +12351,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DFN-10_3X3_VIS"
+		(property "Footprint" "Library:DFN-10-1EP_3x3mm_P0.5mm_EP1.7x2.5mm"
 			(at 104.14 226.06 0)
 			(effects
 				(font
@@ -12524,7 +12449,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 82.2452 137.795 0)
 			(effects
 				(font
@@ -12648,7 +12573,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 87.3252 251.46 0)
 			(effects
 				(font
@@ -12838,7 +12763,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Library:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 277.368 200.66 90)
 			(effects
 				(font
@@ -12952,7 +12877,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Library:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 170.053 107.315 90)
 			(effects
 				(font
@@ -13065,7 +12990,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DFN-10_3X3_VIS"
+		(property "Footprint" "Library:DFN-10-1EP_3x3mm_P0.5mm_EP1.7x2.5mm"
 			(at 276.225 81.915 0)
 			(effects
 				(font
@@ -13294,7 +13219,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Library:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 169.418 146.05 90)
 			(effects
 				(font
@@ -13449,7 +13374,7 @@
 	(symbol
 		(lib_name "Conn_01x02_2")
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 221.615 129.54 0)
+		(at 220.98 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13458,7 +13383,7 @@
 		(fields_autoplaced yes)
 		(uuid "40bf0c17-1f02-42d0-b34e-502e68eaa8c2")
 		(property "Reference" "Lidar1"
-			(at 224.79 129.5399 0)
+			(at 224.155 129.5399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13466,8 +13391,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "WM11839-ND"
-			(at 224.79 132.0799 0)
+		(property "Value" "1723103102"
+			(at 224.155 132.0799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13475,8 +13400,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Library:MOLEX_1722871102"
-			(at 221.615 129.54 0)
+		(property "Footprint" "Library:MOLEX_1723103102"
+			(at 220.98 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13485,7 +13410,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 221.615 129.54 0)
+			(at 220.98 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13494,15 +13419,15 @@
 			)
 		)
 		(property "Description" ""
-			(at 221.615 129.54 0)
+			(at 220.98 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Digikey" "WM11839-ND"
-			(at 221.615 129.54 0)
+		(property "Digikey" "900-1723103102-ND"
+			(at 220.98 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13511,7 +13436,7 @@
 			)
 		)
 		(property "Manufacturer" "Molex"
-			(at 221.615 129.54 0)
+			(at 220.98 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13520,12 +13445,20 @@
 			)
 		)
 		(property "Part" "1723102202"
-			(at 221.615 129.54 0)
+			(at 220.98 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "DIGIKEY" "900-1723103102-ND"
+			(at 220.98 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -13576,7 +13509,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Library:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 103.378 248.92 90)
 			(effects
 				(font
@@ -13754,7 +13687,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DFN-10_3X3_VIS"
+		(property "Footprint" "Library:DFN-10-1EP_3x3mm_P0.5mm_EP1.7x2.5mm"
 			(at 106.68 81.915 0)
 			(effects
 				(font
@@ -14113,7 +14046,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DFN-10_3X3_VIS"
+		(property "Footprint" "Library:DFN-10-1EP_3x3mm_P0.5mm_EP1.7x2.5mm"
 			(at 278.13 177.8 0)
 			(effects
 				(font
@@ -14276,7 +14209,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Library:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 337.058 157.48 90)
 			(effects
 				(font
@@ -14390,7 +14323,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Library:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 102.87 37.338 90)
 			(effects
 				(font
@@ -14635,7 +14568,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 80.3402 234.315 0)
 			(effects
 				(font
@@ -14889,7 +14822,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 81.6102 186.055 0)
 			(effects
 				(font
@@ -15144,7 +15077,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Library:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 169.418 154.94 90)
 			(effects
 				(font
@@ -15453,7 +15386,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 88.5952 203.2 0)
 			(effects
 				(font
@@ -15772,7 +15705,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 192.1002 233.68 0)
 			(effects
 				(font
@@ -15962,7 +15895,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Library:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 97.155 138.938 90)
 			(effects
 				(font
@@ -16069,7 +16002,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "WM11839-ND"
+		(property "Value" "1723103102"
 			(at 226.06 25.3999 0)
 			(effects
 				(font
@@ -16078,7 +16011,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Library:MOLEX_1722871102"
+		(property "Footprint" "Library:MOLEX_1723103102"
 			(at 223.52 22.86 0)
 			(effects
 				(font
@@ -16104,7 +16037,7 @@
 				)
 			)
 		)
-		(property "Digikey" "WM11839-ND"
+		(property "Digikey" "900-1723103102-ND"
 			(at 223.52 22.86 0)
 			(effects
 				(font
@@ -16129,6 +16062,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "DIGIKEY" "900-1723103102-ND"
+			(at 223.52 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -16310,7 +16251,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 256.8702 157.48 0)
 			(effects
 				(font
@@ -16434,7 +16375,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Library:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 104.648 200.66 90)
 			(effects
 				(font
@@ -16809,7 +16750,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 89.8652 107.315 0)
 			(effects
 				(font
@@ -16932,7 +16873,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:IC_TPS1HC30BQPWPRQ1"
 			(at 130.81 35.56 0)
 			(effects
 				(font
@@ -16952,6 +16893,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 130.81 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY" "296-TPS1HC30BQPWPRQ1CT-ND"
 			(at 130.81 35.56 0)
 			(effects
 				(font
@@ -17236,7 +17186,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Library:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 269.24 187.198 90)
 			(effects
 				(font
@@ -17484,7 +17434,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Library:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 158.75 47.498 90)
 			(effects
 				(font
@@ -17598,7 +17548,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Library:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 167.513 242.57 90)
 			(effects
 				(font
@@ -17690,9 +17640,9 @@
 		(at 213.995 228.6 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "9009b224-9e85-40a3-9303-ed417c127150")
 		(property "Reference" "TP2"
@@ -17714,7 +17664,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:TestPoint_Loop_D2.50mm_Drill1.0mm"
 			(at 213.995 233.68 0)
 			(effects
 				(font
@@ -17910,7 +17860,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Library:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 170.053 98.425 90)
 			(effects
 				(font
@@ -18025,7 +17975,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Library:TE_5-104809-1"
+		(property "Footprint" "Library:TE_5-104361-1"
 			(at 391.16 81.915 0)
 			(effects
 				(font
@@ -18079,6 +18029,14 @@
 				(hide yes)
 			)
 		)
+		(property "DIGIKEY" "A33961-ND"
+			(at 391.16 81.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "07001fbd-7286-418b-bc9a-65b4c61d753b")
 		)
@@ -18121,7 +18079,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 89.2302 154.94 0)
 			(effects
 				(font
@@ -18245,7 +18203,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 361.6452 139.7 0)
 			(effects
 				(font
@@ -18349,7 +18307,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "9a6616d8-ffa1-4792-8a1d-ffd2bf00347e")
 		(property "Reference" "TP4"
@@ -18371,7 +18329,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:TestPoint_Loop_D2.50mm_Drill1.0mm"
 			(at 387.985 185.42 0)
 			(effects
 				(font
@@ -18437,7 +18395,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 194.6402 89.535 0)
 			(effects
 				(font
@@ -18562,7 +18520,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Library:TE_5-104809-1"
+		(property "Footprint" "Library:TE_5-104361-1"
 			(at 388.62 132.08 0)
 			(effects
 				(font
@@ -18614,6 +18572,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "DIGIKEY" "A33961-ND"
+			(at 388.62 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -18982,7 +18948,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DFN-10_3X3_VIS"
+		(property "Footprint" "Library:DFN-10-1EP_3x3mm_P0.5mm_EP1.7x2.5mm"
 			(at 106.045 129.54 0)
 			(effects
 				(font
@@ -19080,7 +19046,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Library:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 341.503 203.2 90)
 			(effects
 				(font
@@ -19194,7 +19160,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Library:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 97.79 91.313 90)
 			(effects
 				(font
@@ -19504,7 +19470,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Library:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 158.75 41.148 90)
 			(effects
 				(font
@@ -19657,6 +19623,117 @@
 		)
 	)
 	(symbol
+		(lib_name "Conn_01x02_2")
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 221.615 81.915 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aeea2a5f-8d33-45d0-a3ad-63fce0f96f24")
+		(property "Reference" "Computer1"
+			(at 224.79 81.9149 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1723103102"
+			(at 224.79 84.4549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Library:MOLEX_1723103102"
+			(at 221.615 81.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 221.615 81.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 221.615 81.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "900-1723103102-ND"
+			(at 221.615 81.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Molex"
+			(at 221.615 81.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "1723102202"
+			(at 221.615 81.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY" "900-1723103102-ND"
+			(at 221.615 81.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3799c621-628d-468f-b374-e994c85cd391")
+		)
+		(pin "2"
+			(uuid "af62a537-4d46-466c-a3fc-5c98966ee161")
+		)
+		(pin "5"
+			(uuid "c7754e7e-06dd-4fdc-85d9-3e85437c719f")
+		)
+		(pin "4"
+			(uuid "eae40982-9dbd-445c-ba4c-2fd5de66b04a")
+		)
+		(instances
+			(project "Connector_Extension_Board_V1.0"
+				(path "/632966f8-0e72-49d8-ae31-468f807051b0"
+					(reference "Computer1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 260.35 199.39 0)
 		(unit 1)
@@ -19683,7 +19760,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 261.3152 203.2 0)
 			(effects
 				(font
@@ -19807,7 +19884,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Library:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 95.25 235.458 90)
 			(effects
 				(font
@@ -19986,7 +20063,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 249.8852 140.335 0)
 			(effects
 				(font
@@ -20371,7 +20448,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:TE_640388-3"
 			(at 36.195 29.21 0)
 			(effects
 				(font
@@ -20442,7 +20519,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DFN-10_3X3_VIS"
+		(property "Footprint" "Library:DFN-10-1EP_3x3mm_P0.5mm_EP1.7x2.5mm"
 			(at 273.685 132.08 0)
 			(effects
 				(font
@@ -20540,7 +20617,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Library:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 182.118 41.91 90)
 			(effects
 				(font
@@ -20654,7 +20731,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 88.5952 30.48 0)
 			(effects
 				(font
@@ -20778,7 +20855,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 364.1852 89.535 0)
 			(effects
 				(font
@@ -20902,7 +20979,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 82.8802 90.17 0)
 			(effects
 				(font
@@ -21026,7 +21103,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Library:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 167.513 251.46 90)
 			(effects
 				(font
@@ -21140,7 +21217,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Library:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 339.598 98.425 90)
 			(effects
 				(font
@@ -21254,7 +21331,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Library:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 267.335 91.313 90)
 			(effects
 				(font
@@ -21498,7 +21575,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Library:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 168.783 194.31 90)
 			(effects
 				(font
@@ -21612,7 +21689,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 259.4102 107.315 0)
 			(effects
 				(font
@@ -21914,7 +21991,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "e21a5c01-51ae-48da-b484-902766ec1c14")
 		(property "Reference" "TP3"
@@ -21936,7 +22013,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:TestPoint_Loop_D2.50mm_Drill1.0mm"
 			(at 387.985 182.88 0)
 			(effects
 				(font
@@ -22135,7 +22212,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Library:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 105.918 104.775 90)
 			(effects
 				(font
@@ -22231,9 +22308,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ef4c1ae4-8072-4ea1-bc8b-81f66b6ee33a")
-		(property "Reference" "Square1"
+		(property "Reference" "Spare1"
 			(at 223.52 177.7999 0)
 			(effects
 				(font
@@ -22242,7 +22318,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "WM11839-ND"
+		(property "Value" "1723103102"
 			(at 223.52 180.3399 0)
 			(effects
 				(font
@@ -22251,7 +22327,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Library:MOLEX_1722871102"
+		(property "Footprint" "Library:MOLEX_1723103102"
 			(at 220.345 177.8 0)
 			(effects
 				(font
@@ -22277,7 +22353,7 @@
 				)
 			)
 		)
-		(property "Digikey" "WM11839-ND"
+		(property "Digikey" "900-1723103102-ND"
 			(at 220.345 177.8 0)
 			(effects
 				(font
@@ -22304,6 +22380,14 @@
 				(hide yes)
 			)
 		)
+		(property "DIGIKEY" "900-1723103102-ND"
+			(at 221.615 172.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "80f01927-5545-4ad6-aa11-84e02bf93641")
 		)
@@ -22319,7 +22403,7 @@
 		(instances
 			(project "Connector_Extension_Board_V1.0"
 				(path "/632966f8-0e72-49d8-ae31-468f807051b0"
-					(reference "Square1")
+					(reference "Spare1")
 					(unit 1)
 				)
 			)
@@ -22525,9 +22609,9 @@
 		(at 213.995 226.06 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f45f3f3a-2c20-443b-add3-0e806f41a7a3")
 		(property "Reference" "TP1"
@@ -22549,7 +22633,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:TestPoint_Loop_D2.50mm_Drill1.0mm"
 			(at 213.995 231.14 0)
 			(effects
 				(font
