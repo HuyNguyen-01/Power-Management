@@ -2329,7 +2329,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22u/50V/3025"
+		(property "Value" "22u/25V/1210"
 			(at 198.755 152.4 90)
 			(effects
 				(font
@@ -2338,7 +2338,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Library:C_CER_7.5x6.3"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 204.1652 141.605 0)
 			(effects
 				(font
@@ -2477,7 +2477,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22u/50V/3025"
+		(property "Value" "22u/25V/1210"
 			(at 214.63 127.635 90)
 			(effects
 				(font
@@ -2486,7 +2486,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Library:C_CER_7.5x6.3"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 220.0402 116.84 0)
 			(effects
 				(font
@@ -2625,7 +2625,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22u/50V/3025"
+		(property "Value" "22u/25V/1210"
 			(at 205.105 127.635 90)
 			(effects
 				(font
@@ -2634,7 +2634,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Library:C_CER_7.5x6.3"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 210.5152 116.84 0)
 			(effects
 				(font
@@ -3483,7 +3483,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22u/50V/3025"
+		(property "Value" "22u/25V/1210"
 			(at 224.155 127.635 90)
 			(effects
 				(font
@@ -3492,7 +3492,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Library:C_CER_7.5x6.3"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 229.5652 116.84 0)
 			(effects
 				(font
@@ -3631,7 +3631,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22u/50V/3025"
+		(property "Value" "22u/25V/1210"
 			(at 195.58 127.635 90)
 			(effects
 				(font
@@ -3640,7 +3640,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Library:C_CER_7.5x6.3"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 200.9902 116.84 0)
 			(effects
 				(font
@@ -4335,7 +4335,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22u/50V/3025"
+		(property "Value" "22u/25V/1210"
 			(at 233.68 127.635 90)
 			(effects
 				(font
@@ -4344,7 +4344,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Library:C_CER_7.5x6.3"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 239.0902 116.84 0)
 			(effects
 				(font
@@ -4630,7 +4630,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22u/50V/3025"
+		(property "Value" "22u/25V/1210"
 			(at 208.28 152.4 90)
 			(effects
 				(font
@@ -4639,7 +4639,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Library:C_CER_7.5x6.3"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 213.6902 141.605 0)
 			(effects
 				(font
@@ -4778,7 +4778,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22u/50V/3025"
+		(property "Value" "22u/25V/1210"
 			(at 243.205 127.635 90)
 			(effects
 				(font
@@ -4787,7 +4787,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Library:C_CER_7.5x6.3"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 248.6152 116.84 0)
 			(effects
 				(font
@@ -5413,7 +5413,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22u/50V/3025"
+		(property "Value" "22u/25V/1210"
 			(at 186.055 124.46 90)
 			(effects
 				(font
@@ -5422,7 +5422,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Library:C_CER_7.5x6.3"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 190.8302 116.84 0)
 			(effects
 				(font
@@ -6189,7 +6189,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22u/50V/3025"
+		(property "Value" "22u/25V/1210"
 			(at 227.33 152.4 90)
 			(effects
 				(font
@@ -6198,7 +6198,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Library:C_CER_7.5x6.3"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 232.7402 141.605 0)
 			(effects
 				(font
@@ -6402,7 +6402,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22u/50V/3025"
+		(property "Value" "22u/25V/1210"
 			(at 217.805 152.4 90)
 			(effects
 				(font
@@ -6411,7 +6411,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Library:C_CER_7.5x6.3"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 223.2152 141.605 0)
 			(effects
 				(font
