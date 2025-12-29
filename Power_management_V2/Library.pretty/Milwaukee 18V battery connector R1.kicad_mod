@@ -207,15 +207,28 @@
 		(uuid "113580b8-efb6-4563-a5fd-0342a7fa0be5")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/3D/M18 Battery Terminal.step"
+	(model "${KIPRJMOD}/3D/Batterry.step"
+		(hide yes)
 		(offset
-			(xyz -20.25 9.5 -29.5)
+			(xyz 0 -31 -21.5)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 90 180 -40)
+			(xyz -0 -0 -180)
+		)
+	)
+	(model "${KIPRJMOD}/3D/DIP-PUL-3005-2.step"
+		(opacity 0.7300)
+		(offset
+			(xyz 0 -30.5 -22.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -180)
 		)
 	)
 )
