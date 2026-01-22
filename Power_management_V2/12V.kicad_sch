@@ -311,6 +311,132 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:NetTie_2"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "NT"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "NetTie_2"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Net tie, 2 pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "net tie short"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Net*Tie*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NetTie_2_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "NetTie_2_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -1549,18 +1675,6 @@
 		(uuid "c3aba38e-c221-4953-a149-26d3a6798ae0")
 	)
 	(junction
-		(at 70.485 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c73e4e43-aeec-4d52-a07b-0540f8ce9d83")
-	)
-	(junction
-		(at 70.485 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ca0bb7ac-7d84-4363-ae86-d1727d19c29f")
-	)
-	(junction
 		(at 228.6 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1669,16 +1783,6 @@
 			(type default)
 		)
 		(uuid "1312b054-bfda-455a-9fed-e23344171d04")
-	)
-	(wire
-		(pts
-			(xy 62.23 71.12) (xy 70.485 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1729e44f-153e-47f7-a100-c311fe1cd488")
 	)
 	(wire
 		(pts
@@ -1812,16 +1916,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 78.74) (xy 70.485 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49ad7306-75d4-4220-a4d7-a3e9655afd6e")
-	)
-	(wire
-		(pts
 			(xy 106.045 87.63) (xy 104.775 87.63)
 		)
 		(stroke
@@ -1912,7 +2006,7 @@
 	)
 	(wire
 		(pts
-			(xy 70.485 78.74) (xy 78.74 78.74)
+			(xy 62.23 78.74) (xy 78.74 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1942,7 +2036,7 @@
 	)
 	(wire
 		(pts
-			(xy 70.485 71.12) (xy 78.74 71.12)
+			(xy 62.23 71.12) (xy 78.74 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2142,6 +2236,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 132.08) (xy 129.54 128.905)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3d02f07-55aa-4547-8345-aa87a210656f")
+	)
+	(wire
+		(pts
 			(xy 169.545 109.22) (xy 174.625 109.22)
 		)
 		(stroke
@@ -2259,6 +2363,16 @@
 			(type default)
 		)
 		(uuid "efb56cee-3eb5-4bc6-b520-71256ee55880")
+	)
+	(wire
+		(pts
+			(xy 124.46 128.905) (xy 124.46 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f176cf40-a4c3-4d06-bdb5-4c1d7b85db90")
 	)
 	(wire
 		(pts
@@ -2798,6 +2912,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 124.46 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1598710b-babc-4613-87c4-5574cadc1ef7")
+		(property "Reference" "#PWR024"
+			(at 124.46 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 124.46 136.5234 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8da791b0-abad-4be3-a570-15c514faf06d")
+		)
+		(instances
+			(project "Power_management_V2"
+				(path "/632966f8-0e72-49d8-ae31-468f807051b0/ea320acb-942d-4621-955d-3f03cfc2bafa"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 158.115 85.09 0)
 		(mirror y)
@@ -3095,6 +3274,136 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND1")
+		(at 129.54 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2dde1347-1fa2-42dd-97ea-d6c147bed137")
+		(property "Reference" "#PWR025"
+			(at 129.54 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND2"
+			(at 129.54 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f234cdbe-9e1a-44e2-b13b-811efaa91d58")
+		)
+		(instances
+			(project "Power_management_V2"
+				(path "/632966f8-0e72-49d8-ae31-468f807051b0/ea320acb-942d-4621-955d-3f03cfc2bafa"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 142.875 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ea74bd4-b8cc-4524-b9a6-e1634cb5115e")
+		(property "Reference" "#PWR026"
+			(at 142.875 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 142.875 126.3634 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.875 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.875 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 142.875 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "43f108fd-4429-44e8-a124-c544a116be7a")
+		)
+		(instances
+			(project "Power_management_V2"
+				(path "/632966f8-0e72-49d8-ae31-468f807051b0/ea320acb-942d-4621-955d-3f03cfc2bafa"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 51.435 74.93 0)
 		(unit 1)
@@ -3250,7 +3559,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "38e0948e-f98b-4d7d-8a16-9aa9868ac350")
 		(property "Reference" "#PWR09"
 			(at 147.32 102.87 0)
@@ -3261,12 +3569,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND1"
-			(at 147.32 101.6 0)
+		(property "Value" "GND2"
+			(at 144.78 100.965 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -3881,71 +4190,6 @@
 			(project "Power_management_V2"
 				(path "/632966f8-0e72-49d8-ae31-468f807051b0/ea320acb-942d-4621-955d-3f03cfc2bafa"
 					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND1")
-		(at 142.875 121.92 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "485f6675-2639-45c0-b296-baa200755171")
-		(property "Reference" "#PWR08"
-			(at 142.875 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND1"
-			(at 142.875 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 142.875 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 142.875 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 142.875 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "43a126ec-96b9-44f2-9742-53620dffc752")
-		)
-		(instances
-			(project "Power_management_V2"
-				(path "/632966f8-0e72-49d8-ae31-468f807051b0/ea320acb-942d-4621-955d-3f03cfc2bafa"
-					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -5954,153 +6198,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 70.485 74.93 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c81c0841-7246-4045-9b95-d8f41dead935")
-		(property "Reference" "C3"
-			(at 73.406 73.7178 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100n/50V/0603"
-			(at 71.12 95.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 69.5198 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 70.485 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 70.485 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "587-1243-1-ND"
-			(at 70.485 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "10%"
-			(at 70.485 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Coefficient" "X7R"
-			(at 70.485 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "50"
-			(at 70.485 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Taiyo Yuden"
-			(at 70.485 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "UMK107B7104KA-T"
-			(at 70.485 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 70.485 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Params" ""
-			(at 70.485 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 70.485 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e440e84e-f339-4f92-b73f-d27ca4c50e95")
-		)
-		(pin "2"
-			(uuid "c679039f-735d-4bbd-8abb-8fac3a465693")
-		)
-		(instances
-			(project "Power_management_V2"
-				(path "/632966f8-0e72-49d8-ae31-468f807051b0/ea320acb-942d-4621-955d-3f03cfc2bafa"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "RM_Converter_DCDC:SIC43x")
 		(at 130.175 86.36 0)
 		(unit 1)
@@ -6587,6 +6684,74 @@
 			(project "Power_management_V2"
 				(path "/632966f8-0e72-49d8-ae31-468f807051b0/ea320acb-942d-4621-955d-3f03cfc2bafa"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 127 128.905 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed0f225e-ed63-4f4f-b5a1-8bc799e233aa")
+		(property "Reference" "NT2"
+			(at 127 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 127 126.365 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:NetTie-2_SMD_Pad1.56mm"
+			(at 127 128.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 128.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 127 128.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bf405e1d-80ee-4bb6-9e31-fcdf72b871dc")
+		)
+		(pin "1"
+			(uuid "9df0641e-92c4-427c-bb4e-aaa113980ab6")
+		)
+		(instances
+			(project "Power_management_V2"
+				(path "/632966f8-0e72-49d8-ae31-468f807051b0/ea320acb-942d-4621-955d-3f03cfc2bafa"
+					(reference "NT2")
 					(unit 1)
 				)
 			)

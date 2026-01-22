@@ -561,7 +561,7 @@
 		)
 		(uuid "e94b1700-679b-4886-8e44-0a9aadae338e")
 	)
-	(pad "5_6_7_8_9" smd custom
+	(pad "5" smd custom
 		(at -1.475 2.075)
 		(size 0.1 0.1)
 		(layers "F.Cu")

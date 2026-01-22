@@ -1,4 +1,4 @@
-24770937394117288
+24774478339483964
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -65919,6 +65919,13 @@ inductor vishay ihlp smd
 2
 2
 Library
+MOLEX_2165711003
+
+
+0
+3
+3
+Library
 MOLEX_1722871102
 
 
@@ -65929,6 +65936,13 @@ Library
 Milwaukee 18V battery connector R1
 
 
+0
+2
+2
+Library
+NetTie-2_SMD_Pad1.56mm
+
+net tie
 0
 2
 2

@@ -311,6 +311,132 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:NetTie_2"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "NT"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "NetTie_2"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Net tie, 2 pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "net tie short"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Net*Tie*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NetTie_2_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "NetTie_2_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -1778,6 +1904,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 127.635) (xy 156.21 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a46c6526-f910-457f-a194-0b514afe7321")
+	)
+	(wire
+		(pts
 			(xy 161.29 109.22) (xy 190.5 109.22)
 		)
 		(stroke
@@ -1968,6 +2104,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 124.46) (xy 151.13 127.635)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e23a7753-361a-4b61-897e-f33a7cdd78aa")
+	)
+	(wire
+		(pts
 			(xy 134.62 90.17) (xy 139.7 90.17)
 		)
 		(stroke
@@ -2038,6 +2184,71 @@
 			(justify left)
 		)
 		(uuid "5e6677dc-1c86-4a0f-b538-2abb36190833")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 163.83 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0259b976-6b47-48dc-a5af-020610306fb6")
+		(property "Reference" "#PWR021"
+			(at 163.83 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 163.83 123.8234 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "34f362e2-c5f1-4960-8f04-ed8334503d3a")
+		)
+		(instances
+			(project "Power_management_V2"
+				(path "/632966f8-0e72-49d8-ae31-468f807051b0/72d31167-e5b9-4ad1-a5a3-7c9d97c1c508"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -3035,6 +3246,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 151.13 127.635 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57002c79-03be-4b16-af71-739da990b422")
+		(property "Reference" "#PWR022"
+			(at 151.13 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 151.13 132.0784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 151.13 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a2acc857-7bb4-41b4-a722-91f121c877ff")
+		)
+		(instances
+			(project "Power_management_V2"
+				(path "/632966f8-0e72-49d8-ae31-468f807051b0/72d31167-e5b9-4ad1-a5a3-7c9d97c1c508"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 91.44 72.39 180)
 		(unit 1)
@@ -3817,17 +4093,33 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND1")
-		(at 163.83 119.38 0)
+		(lib_id "Device:NetTie_2")
+		(at 153.67 124.46 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8fb89744-94b7-4ea3-a89a-6ee775d231c1")
-		(property "Reference" "#PWR014"
-			(at 163.83 125.73 0)
+		(uuid "8239d152-7189-4a64-b0da-626a6d87e85c")
+		(property "Reference" "NT1"
+			(at 153.67 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 153.67 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:NetTie-2_SMD_Pad1.56mm"
+			(at 153.67 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3835,16 +4127,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND1"
-			(at 163.83 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 163.83 119.38 0)
+		(property "Datasheet" "~"
+			(at 153.67 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3852,8 +4136,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 163.83 119.38 0)
+		(property "Description" "Net tie, 2 pins"
+			(at 153.67 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3861,21 +4145,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 163.83 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+		(pin "2"
+			(uuid "0386e831-c602-450c-8c31-f39343a02052")
 		)
 		(pin "1"
-			(uuid "5eb8ed63-69ff-4f9d-930d-b3b006d63a7b")
+			(uuid "565094a3-45af-4a49-9d67-d14d9b3ef28f")
 		)
 		(instances
-			(project "Power_management_V2"
+			(project ""
 				(path "/632966f8-0e72-49d8-ae31-468f807051b0/72d31167-e5b9-4ad1-a5a3-7c9d97c1c508"
-					(reference "#PWR014")
+					(reference "NT1")
 					(unit 1)
 				)
 			)
@@ -4944,6 +5223,71 @@
 			(project "Power_management_V2"
 				(path "/632966f8-0e72-49d8-ae31-468f807051b0/72d31167-e5b9-4ad1-a5a3-7c9d97c1c508"
 					(reference "L2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND1")
+		(at 156.21 127.635 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c0572f00-155e-4271-9b57-658eb52ce925")
+		(property "Reference" "#PWR023"
+			(at 156.21 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND1"
+			(at 156.21 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 156.21 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3f6a088f-be72-4f88-8326-02ed409f8f2f")
+		)
+		(instances
+			(project "Power_management_V2"
+				(path "/632966f8-0e72-49d8-ae31-468f807051b0/72d31167-e5b9-4ad1-a5a3-7c9d97c1c508"
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
