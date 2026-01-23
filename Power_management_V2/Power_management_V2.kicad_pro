@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 2.0,
-          "height": 5.0,
-          "width": 5.0
+          "drill": 0.0,
+          "height": 1.56,
+          "width": 0.1
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -59,7 +59,40 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|102454448|87551268|b1f19c14-6b6e-4d5c-918a-9ed8c7b424ef|5466f72d-7d3f-4e71-813a-ca7e82c1cc7f",
+          ""
+        ],
+        [
+          "clearance|102484448|87364990|c10d5553-96df-4757-afaf-6fca61aafd1b|a4ca80cd-3b05-422f-bbfa-6c152e6cb397",
+          ""
+        ],
+        [
+          "clearance|95111618|60019800|20b93d6c-ceb8-4a8c-bc66-c49c207d6247|e0fc3b5c-c9e8-4b57-a7d7-723d4356f62e",
+          ""
+        ],
+        [
+          "clearance|95141618|59829800|a269aca6-5619-443e-a20a-96474630335f|aea63b85-77e7-40b6-9d65-9c3a57eacf7c",
+          ""
+        ],
+        [
+          "solder_mask_bridge|102354448|87359800|7746d529-377e-4d4a-92d5-029115e7f65d|55db5dd3-cdb7-499b-9471-435cb6afdb09",
+          ""
+        ],
+        [
+          "solder_mask_bridge|102584448|87499800|3fa3a498-47f6-453b-b921-7de9c3129160|a85bfdc8-318c-402c-8e36-79477483513f",
+          ""
+        ],
+        [
+          "solder_mask_bridge|95011618|59829800|eedab24c-7625-4630-8777-628b69bf8960|76614bcb-1da2-43b8-89f2-de8f5981f6a2",
+          ""
+        ],
+        [
+          "solder_mask_bridge|95241618|59969800|c7441e29-7122-49b0-b98c-98b391aae2ab|8979e3cb-c5b6-40e0-9023-081d166f5e31",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -129,10 +162,10 @@
         "max_error": 0.005,
         "min_clearance": 0.127,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.0,
+        "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.254,
-        "min_hole_to_hole": 0.5,
+        "min_hole_to_hole": 0.4,
         "min_microvia_diameter": 0.4,
         "min_microvia_drill": 0.2,
         "min_resolved_spokes": 1,
@@ -605,7 +638,7 @@
           "group_by": false,
           "label": "Digikey",
           "name": "Digikey",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
