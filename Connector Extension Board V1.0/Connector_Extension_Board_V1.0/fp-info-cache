@@ -1,4 +1,4 @@
-24755039392157314
+24762113355639147
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -65877,6 +65877,20 @@ IC_TPS1HC30BQPWPRQ1
 27
 15
 Library
+MOLEX_2157601003
+
+
+0
+3
+3
+Library
+MOLEX_2165711003
+
+
+0
+3
+3
+Library
 MOLEX_1722871102
 
 
@@ -65897,6 +65911,20 @@ MOLEX_1723103102
 0
 4
 4
+Library
+MountingHole_3.1-5.8
+
+
+0
+1
+1
+Library
+SON50P200X200X80-9N
+
+
+0
+9
+9
 Library
 TE_5-104361-1
 

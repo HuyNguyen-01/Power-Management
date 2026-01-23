@@ -2369,7 +2369,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "445-174338-1-ND"
+		(property "Digikey" "1276-3047-1-ND"
 			(at 210.82 110.49 0)
 			(effects
 				(font
@@ -2448,6 +2448,15 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 210.82 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5877c3c7-bd3e-4356-b764-fd0246b983a0")
 		)
@@ -2482,7 +2491,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7u/16V/1206"
+		(property "Value" "4.7u/50V/1206"
 			(at 180.975 118.11 0)
 			(effects
 				(font
@@ -2518,7 +2527,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "490-16469-1-ND"
+		(property "Digikey" "490-14384-1-ND"
 			(at 163.83 115.57 0)
 			(effects
 				(font
@@ -2564,7 +2573,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "GCJ31CL81C475KA01L"
+		(property "Part" ""
 			(at 163.83 115.57 0)
 			(effects
 				(font
@@ -2595,6 +2604,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "JLCPCB Part #" "C51205"
+			(at 163.83 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2714,6 +2732,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 151.13 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2933,6 +2960,15 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 168.91 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dce40d57-8b13-406a-b802-067584f8c9c0")
 		)
@@ -3081,6 +3117,15 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C508864"
+			(at 83.185 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f1d6d5ee-992d-4218-b2a2-52b10b6d6f2c")
 		)
@@ -3115,7 +3160,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u/16V/0603"
+		(property "Value" "1u/50V/0603"
 			(at 196.215 83.185 0)
 			(effects
 				(font
@@ -3151,7 +3196,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "490-GCG188L8EE105KA07DCT-ND"
+		(property "Digikey" "1276-1068-1-ND"
 			(at 179.07 82.55 0)
 			(effects
 				(font
@@ -3197,7 +3242,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "GCG188L8EE105KA07D"
+		(property "Part" ""
 			(at 179.07 82.55 0)
 			(effects
 				(font
@@ -3228,6 +3273,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "JLCPCB Part #" "C15849"
+			(at 179.07 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3442,6 +3496,15 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C1591"
+			(at 91.44 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "12289516-3fd8-438e-92ca-cd56bf02a5a0")
 		)
@@ -3580,6 +3643,15 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 173.99 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3b0b4a61-e738-4731-b5cb-f50e4ba00cb9")
 		)
@@ -3647,7 +3719,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" ""
+		(property "Digikey" "P73.2KDBCT-ND"
 			(at 186.69 101.6 0)
 			(effects
 				(font
@@ -3714,6 +3786,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 186.69 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3785,7 +3866,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "445-174338-1-ND"
+		(property "Digikey" "1276-3047-1-ND"
 			(at 249.555 110.49 0)
 			(effects
 				(font
@@ -3864,6 +3945,15 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 249.555 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1ab32481-5c75-4d09-8722-86236d8711d6")
 		)
@@ -3933,7 +4023,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "445-174338-1-ND"
+		(property "Digikey" "1276-3047-1-ND"
 			(at 220.98 110.49 0)
 			(effects
 				(font
@@ -4010,6 +4100,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 220.98 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4137,6 +4236,24 @@
 			)
 		)
 		(property "Description" "Net tie, 2 pins"
+			(at 153.67 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 153.67 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "NC"
 			(at 153.67 124.46 0)
 			(effects
 				(font
@@ -4293,6 +4410,15 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C508864"
+			(at 72.39 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "edc91945-5fe4-4db2-9e56-3c370dd13458")
 		)
@@ -4428,6 +4554,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 130.81 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4575,6 +4710,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "JLCPCB Part #" "C1591"
+			(at 195.58 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4781,6 +4925,15 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 168.91 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4ba94fa3-0844-424f-9dea-0c1344cbaa4c")
 		)
@@ -4851,7 +5004,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" ""
+		(property "Digikey" "311-200KHRCT-ND"
 			(at 167.64 88.9 0)
 			(effects
 				(font
@@ -4918,6 +5071,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 167.64 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4989,7 +5151,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "445-174338-1-ND"
+		(property "Digikey" "1276-3047-1-ND"
 			(at 259.08 110.49 0)
 			(effects
 				(font
@@ -5068,6 +5230,15 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 259.08 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7159d19f-1fe9-4e4e-9959-e52c73fd485f")
 		)
@@ -5135,7 +5306,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "SRP1265A-2R2M"
+		(property "Digikey" "SRP1265A-2R2MCT-ND"
 			(at 168.91 106.68 90)
 			(effects
 				(font
@@ -5211,6 +5382,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 168.91 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5347,7 +5527,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "445-174338-1-ND"
+		(property "Digikey" "1276-3047-1-ND"
 			(at 240.03 110.49 0)
 			(effects
 				(font
@@ -5424,6 +5604,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 240.03 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5560,7 +5749,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "445-174338-1-ND"
+		(property "Digikey" "1276-3047-1-ND"
 			(at 268.605 110.49 0)
 			(effects
 				(font
@@ -5637,6 +5826,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 268.605 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5786,6 +5984,15 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C1591"
+			(at 130.81 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "99ce0e07-e127-46c0-b7c2-28eb39ba52d6")
 		)
@@ -5855,7 +6062,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "445-174338-1-ND"
+		(property "Digikey" "1276-3047-1-ND"
 			(at 230.505 110.49 0)
 			(effects
 				(font
@@ -5932,6 +6139,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 230.505 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"

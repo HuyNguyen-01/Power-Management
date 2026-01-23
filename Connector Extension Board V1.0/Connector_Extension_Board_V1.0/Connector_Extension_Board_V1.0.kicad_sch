@@ -1468,6 +1468,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+12V"
 			(power)
 			(pin_numbers
@@ -2375,12 +2482,20 @@
 		(uuid "2453d031-8c7f-49f3-ae13-f6c5b220285e")
 	)
 	(no_connect
+		(at 259.08 240.665)
+		(uuid "30927d79-3a6b-4cc5-a25c-0dac255548a1")
+	)
+	(no_connect
 		(at 220.345 173.99)
 		(uuid "30b5a2f4-6c99-49a5-a38d-520377082149")
 	)
 	(no_connect
 		(at 219.075 86.995)
 		(uuid "40bc8747-9779-469b-a404-3d3a79f2a982")
+	)
+	(no_connect
+		(at 259.08 249.555)
+		(uuid "4ef18c00-0e20-453e-9d7f-8f5cbaa8e2fc")
 	)
 	(no_connect
 		(at 223.52 19.05)
@@ -2393,6 +2508,10 @@
 	(no_connect
 		(at 169.545 85.725)
 		(uuid "7d863914-2fe3-47e3-88f9-9726896b28b0")
+	)
+	(no_connect
+		(at 259.08 257.175)
+		(uuid "8e81f3c6-6355-4472-acef-534ea7c4e5a4")
 	)
 	(no_connect
 		(at 223.52 29.21)
@@ -8770,7 +8889,61 @@
 			"AHQAbwBRADUARwBVAFIAQgBCAEcAZABnADAAZwBxAG8AcwB6AFkAeABOAFQARwAyAE0AYgBWAEoA"
 			"cQA1AFIAWgBsAFkAVQBVAGwAbwBnAFMAWQB4AEEAWABuAFMAVABuAG8AbABBAFUAbgA1AGcAegBT"
 			"AFMAYgBPAGIASgBrAFYAUgA3AFAAbQBFAFUAYwBjAGMAYwBRAHIAZwBLAHEAcQBSAHYAOQBZAEcA"
-			"YwBlADMATQBrAE0ASAB1AE8AWgBJAEEATQBxAGcAVQAxAHoAaAB6AEgAeg=="
+			"YwBlADMATQBrAE0ASAB1AE8AWgBJAEEATQBxAGcAVQAxAHoAaAB6AEgAegBOADgALwBEAEcAbwA4"
+			"ADIAZABaAFcAeQBTAHEAaABpAHgATwBrAGEAQQBNAHMATwBFAE8AYQBzAG4AYwAwAEsAbwBPAEoA"
+			"ZwBxAFUAZQBhAFUAMgBRAEgAZwBFAHUAaAByAHIARgBBAEcAdgBKAHEAUwBSAGsARgBrAE0ARQBE"
+			"AGIALwBDAEgAYQBLAFgAcABDAHkAUQBhAEIARQBaAHoAaQBtAEwAWgArAHgAQgBGAGYARwB5AGgA"
+			"QQBLAE4AVQBmAFMARQBHADUAMQBDADMAYgB5AG0ARwBVADQAcgBmAGIAbQBNAEwAOAA2AG0AbQBv"
+			"AGIAUwB1AGwANwBhADIANQA3AE0AdwB4AEUARAAxAFIAbQBlADMAbABvAEEAeQBGAFkAMQB1AE0A"
+			"TAA2AHAAcQBmAEgAVwAvAFIAbABQAFIAKwBHAGQAWgBLAE8AawArAGgAUQBrAFUAMQAyAGgAVgBW"
+			"AGMANgA1ADcAMwB6AG4ATwA0AFYAYwA5AG4AMQBmAFgATgA1ADkAMwAvAGQAOQBYAHcAagBEAFAA"
+			"cgB2AGQALwA0AG4AeQBsAFQARQA3AGUAZAAvAHMAaABaADAAMABVAHYAbABpAEMASwBGAEUAawBZ"
+			"ADAARQBKAHUAZABNAE8AdwBLAFUAQQBRAE4AdgBUADcARQBCADAARQBKAG0AeQA1AG4AWAA4AG0A"
+			"bQA1AE4AQQBTAFkAQwByAGIASwBLAG4AaAA4AFYALwBIAGoASwA3AFMAMwBCADMAMwAxADcAcgBt"
+			"AFgAaABTADkAVQBEAC8AMwB6AFEAQgB3AE4AbwBhAHQAcQBCADEAagBXADIARQA1AHEAQQBDAGsA"
+			"SABjAFEAVABvAEUARABwAHgASgBKAEMAcwBVAFIAeQBWADYAawBFAHAAeABrAG4AYgBBAHMAZwBw"
+			"AGwAYwBzAFgAdgAzAHkAQgBJAGYALwBrAHIATwBoAHgAOABjAHoAZAAzAFQAeABHAEsASgBjADUA"
+			"MQBvAHYANgAzAGEAZQA5ADIAQwA5AGsAaAA5AHMAVwBjAFgAMQArAHYAeABMADgAOQBsADkANQA5"
+			"AC8AVABHAHgARQBuAE8AZQBUAEQATgBBAEQAVABUAGYASAA2AHkANgBXAEoASwArAFkALwAvADYA"
+			"WQA4ADMARwAvAHoAdQB2AC8ANgBYAFEAdABoAFUARABqAGwARgBOAGEAagB5AEUAQgBDAEcALwA1"
+			"ACsAOQBOADIAdQBXAEoATABuAE8AeABMADUAegAzAEQAMgBXADMATwA2ADkAZABhAHQAcgA2ADcA"
+			"MwBaAGoAVwBVAEkAZwBzAFQAQwBBAFIAZAB4AHgAQwBGAEYAYQBpAFEAegBsAEkAdwB3AEUAVABv"
+			"AEgATQBlAGgAWQA2AGsAeQBFAEkAMQBNADAARgBqADYAagB2AGYAUAB1ADQAYwBWAFMATwBXAC8A"
+			"WQAxAG0AdwBFAHgAawBhAEMAcwByAGMAMABMAGUAUQArACsAeABrAGgAZwBpADIAWQB4AFYATgBF"
+			"AEIAQQBkAGwAWgBXAFAAQQBRAEMAUQBpAFoAUgBqAFcATQBxAEEAUQB6AFkAVwBNAEcAcwAvAEUA"
+			"dwBnAGIASwBRAHAAdABNADcAdwAwADIAKwBLAGsARABDAFoAQgBZAFEAZABJADEARQB4ADMAcABs"
+			"AFkASwA0AFYARAAzAFYAcgBDAFMAcQBrADMAcwBtAFAAeQBOAHcAagBCAEUARQBJAG0AcwBNAEEA"
+			"eQB3AGkAdwBVAGMAUgBzAFgAYgBwAFcANQBrAGEAOQB2AEwAcQAwAFMAYgBoAFoATwBxAHkASgBN"
+			"ADAARQA0AHMAZQBJAFYAOQAvAEcAagA0AG4ANwBsAHcARAA0AGIAdQBsADUAdAB5AFIAawB4AE0A"
+			"UwBQADYAawBHAFAAUQA0AEoAQQBZAGMAZwA0ADQAMwBLAFgAVwA3AGEAVwBMAFIATQBsADIAKwBh"
+			"AFUATgBKAGwASwBNAHQASQB4AHoAKwBaAGgAVABOAEoAYgBIAC8AYgBlADcAdwBtAEoASABQAGUA"
+			"eQBwAGEAeAAxAFEAdQA5AHAAeQBiAHEAdQBtAFIAeABVACsAagBTADUAWgBmADUAbwBWAEUAQQBF"
+			"AFUAQQBnAEkASQBBAFkASgBGAE4ARABIAE4ATQBzAEkAMABVAGUAaQBwAG8ARQB5AEkAUQBCAFIA"
+			"bAA2ADgAQwBMAEMAQwB6AGMAbwBiAG0AZgBrAHoAYwBVAEoAOQAxAFAASQAyAHUAMgBWAC8ATwAw"
+			"ADIATABvAFcASgBXAGgAQQBkAGgASQB5AE0AOABRAFEAcQBqAHEAcgB2AFUAUQBPAEsASgBDAEIA"
+			"VQBGADgAaQBqAEUAWgBPADUAQwBvAG0AUwB0ADkAMQBLAHEARwBFAE0AQwBaAHoAWQBiAGoAdwBh"
+			"AFMAdQBxADkAbQAwADYAYgBxAEcAcQBTAEQASwB1AHkAQgBWAHYAZABTAFYAMgA5AGEAUAB4AGoA"
+			"YgBMAE0AaAArAFYAMgBlAFMANQA5AGEARQBDAFkAQQBSAEcAWQBRAFcARwBJAEEARwBCAEUASQBr"
+			"AGkAUwBXAFgAagBmAGkASABPAFkATAAvAFUAVwArAGYANAB3AGEANQBWAE4AMgB3AG8AcQA0AHoA"
+			"eABTAGoAWgBRAG0AbwA5ADMAUgB1AFoAVwBRAEYAcQBvAE8AaABWAG4AeQBFADAATQBQAFYAMgBq"
+			"AHIAdQB2AFMAWABPAHAASQAzADYAQgBVAFoATgBOADcAcABaADYAUwBPAHIAegBCAFQAdwBUAEsA"
+			"bgBaAGYAOQBHAGUANwBjADMAZQA5ADgAVwBRADUAcwBrAFkAOABHAFoAVwBhAE0ANwBWAHAAcABR"
+			"ACsAZgBFAFIAdQBTAFQAUwBaAFkAVgB1AFIAZgBuAFEAMwBUAFoAVgBsADMAVgAzAGsAZQBYAGoA"
+			"YgBlAEcAdwA3AGEAVABCAHcALwAyADkAdwA0AGUAQwBqAEQAWgAyAGkAMwBMAFkAWQB3AFMAUQBv"
+			"AHcAQwBZAHAANAAyAEYAWQBZAG0ATQBsAFEANABGADcAYQBLAHEATQB0AE8AUAAxAFoAaABCAFMA"
+			"NABpAEQAMQBJAEcAbQByAFIAeQB2AGoASwBvAHMATABCAEUAagBtAEgAQgBoAG8AVQBZAHkAZwBa"
+			"AGEAQwBKAFcAdAA3AEUAegBEAGwAYgAzAEYAMQBxAEwASgB4AEYAYwBEAHYAWAB1AGUANwAwACsA"
+			"RwA4ADYAeQBjAE8AVwA2AGQAVwBwAEYAaAAwADUAMwBmAHIAMQArADUAMQA3AGwARwA5AHMAWgBs"
+			"AGoAUQB6AEQAawBZAGMARwBZAGgAWQA0AEoAYQBzAGMAVQAxAFAAVQBEAFQAYgBZAFkASQBPAFAA"
+			"UABhAEoAQQBRAEEAVABEAEIAawBUAGsAZgBkAGUAMQBWAGQAdgBXAFAAcgBTAHMAUQBvAGcAcABR"
+			"AFIAQQBBAFEAMwBGADYAagBMAHQAMwBqAHMAVABqAHgATgBGADcAUwBlAHgAUgBGAGYAMABLAEEA"
+			"QwBLAGMAdQBQADAAMABKAFAAWgA0ADgAKwBZADcAUgBCAEMAQgB0AFkAZwBSAFoARABDAGMAYgBB"
+			"ADEASABrADgARgBnADAAQwBlAC8AOQBpAEwAVQBXAFgAdwA5AGoAMABWAEsAMQA0AC8AWgBxADYA"
+			"ZQA5AHIAcgBrAHUAWgBHAEsAdABkADIAVwB2AGUAcQA0AGoAYQBXAEYASwBFAEkAMABBAEUARwBG"
+			"ADEAUwBZAFoAUwBXAEQAeQBrAHcAOAB0AHEAcQBZAEQAQwBBAGcANABDAG8ASQBQAEEAQQBtAGEA"
+			"WgBuADcAawBxAEkAQQBvAEUAYQB3AEIAQQBsAHIARgAxADIAbwBSADEASAArAEgAcABhADQAUAA2"
+			"AGEAMwA5AGkAWgBtADcAYQB5AE0AegBRAEQAYgA5AC8AWgBsAEMAaQByAEIAaQByADMAbgA3ADcA"
+			"MgByAHYAKwB1ADcANQBwAEUAVgBjAHEAcwAyAFAANAB0AEUANQBRAFEASw=="
 		)
 	)
 	(label "+5V-3A_2"
@@ -8987,7 +9160,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" ""
+		(property "Digikey" "1276-2876-1-ND"
 			(at 192.405 181.61 0)
 			(effects
 				(font
@@ -9111,7 +9284,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" ""
+		(property "Digikey" "311-590HRCT-ND"
 			(at 318.135 156.21 0)
 			(effects
 				(font
@@ -9421,7 +9594,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" ""
+		(property "Digikey" "P806HCT-ND"
 			(at 323.215 106.045 0)
 			(effects
 				(font
@@ -9482,6 +9655,158 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 259.08 254.635 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e20ebfd-1526-407e-b6ac-d439d4541131")
+		(property "Reference" "H3"
+			(at 261.62 252.0949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 261.62 254.6349 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Library:MountingHole_3.1-5.8"
+			(at 259.08 254.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 259.08 254.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 259.08 254.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "NC"
+			(at 259.08 254.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eb400d0c-14b4-4683-b8b6-d6cc6558e752")
+		)
+		(instances
+			(project "Connector_Extension_Board_V1.0"
+				(path "/632966f8-0e72-49d8-ae31-468f807051b0"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 259.08 238.125 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e326605-c59d-477d-8816-6e022ef4b89a")
+		(property "Reference" "H1"
+			(at 261.62 235.5849 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 261.62 238.1249 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Library:MountingHole_3.1-5.8"
+			(at 259.08 238.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 259.08 238.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 259.08 238.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "NC"
+			(at 259.08 238.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ee012612-3fef-4b1e-9d8e-e88a4bd6e8bf")
+		)
+		(instances
+			(project ""
+				(path "/632966f8-0e72-49d8-ae31-468f807051b0"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 102.87 33.02 90)
 		(unit 1)
@@ -9535,7 +9860,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" ""
+		(property "Digikey" "RMCF0603FT4K99CT-ND"
 			(at 102.87 33.02 0)
 			(effects
 				(font
@@ -9666,7 +9991,7 @@
 		(at 103.505 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(uuid "0fa9556a-821b-4c36-920e-cedf06839daf")
@@ -9715,7 +10040,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" ""
+		(property "Digikey" "NC"
 			(at 103.505 153.67 0)
 			(effects
 				(font
@@ -9839,7 +10164,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" ""
+		(property "Digikey" "311-1.82KHRCT-ND"
 			(at 152.4 194.31 0)
 			(effects
 				(font
@@ -10084,7 +10409,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" ""
+		(property "Digikey" "P1.00MHCT-ND"
 			(at 24.765 83.82 0)
 			(effects
 				(font
@@ -10149,7 +10474,7 @@
 		(at 104.14 250.19 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(uuid "18537f0d-b97c-4643-9afb-564f77bfb4bb")
@@ -10198,7 +10523,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" ""
+		(property "Digikey" "NC"
 			(at 104.14 250.19 0)
 			(effects
 				(font
@@ -10322,7 +10647,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" ""
+		(property "Digikey" "1276-2876-1-ND"
 			(at 193.04 133.35 0)
 			(effects
 				(font
@@ -10527,7 +10852,7 @@
 		(at 102.87 40.64 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(uuid "1e9f29b8-220d-4276-9abc-723c2ce59ae3")
@@ -10576,7 +10901,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" ""
+		(property "Digikey" "NC"
 			(at 102.87 40.64 0)
 			(effects
 				(font
@@ -10690,7 +11015,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" ""
+		(property "Digikey" "RMCF0603FT681RCT-ND"
 			(at 149.86 145.415 0)
 			(effects
 				(font
@@ -10999,7 +11324,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" ""
+		(property "Digikey" "1276-2876-1-ND"
 			(at 251.46 86.36 0)
 			(effects
 				(font
@@ -11123,7 +11448,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" ""
+		(property "Digikey" "1276-2876-1-ND"
 			(at 365.125 181.61 0)
 			(effects
 				(font
@@ -11377,7 +11702,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" ""
+		(property "Digikey" "1276-2876-1-ND"
 			(at 253.365 182.245 0)
 			(effects
 				(font
@@ -11566,7 +11891,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" ""
+		(property "Digikey" "1276-2876-1-ND"
 			(at 81.28 133.985 0)
 			(effects
 				(font
@@ -11699,6 +12024,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "296-50500-1-ND"
+			(at 291.465 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "cfaac57c-116f-44b1-a661-2baa97ff2dd3")
 		)
@@ -11789,7 +12123,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" ""
+		(property "Digikey" "587-1243-1-ND"
 			(at 86.36 247.65 0)
 			(effects
 				(font
@@ -11988,6 +12322,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "296-50500-1-ND"
+			(at 127 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "98f9cfa9-2711-4733-8126-cba5e6b8ae30")
 		)
@@ -12078,7 +12421,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" ""
+		(property "Digikey" "311-590HRCT-ND"
 			(at 321.945 201.93 0)
 			(effects
 				(font
@@ -12356,6 +12699,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12433,7 +12777,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" ""
+		(property "Digikey" "311-4.22KHRCT-ND"
 			(at 150.495 249.555 0)
 			(effects
 				(font
@@ -12548,6 +12892,15 @@
 			)
 		)
 		(property "DIGIKEY" "296-50500-1-ND"
+			(at 123.19 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "296-50500-1-ND"
 			(at 123.19 185.42 0)
 			(effects
 				(font
@@ -13036,7 +13389,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" ""
+		(property "Digikey" "RMCF0603FT4K99CT-ND"
 			(at 102.87 35.56 0)
 			(effects
 				(font
@@ -13281,7 +13634,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" ""
+		(property "Digikey" "1276-2876-1-ND"
 			(at 79.375 230.505 0)
 			(effects
 				(font
@@ -13346,6 +13699,82 @@
 			(project "Connector_Extension_Board_V1.0"
 				(path "/632966f8-0e72-49d8-ae31-468f807051b0"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 259.08 247.015 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a474f40-f057-4192-9b56-2dedc266ba37")
+		(property "Reference" "H2"
+			(at 261.62 244.4749 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 261.62 247.0149 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Library:MountingHole_3.1-5.8"
+			(at 259.08 247.015 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 259.08 247.015 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 259.08 247.015 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "NC"
+			(at 259.08 247.015 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5265d887-324e-4c08-b568-e2483da8a203")
+		)
+		(instances
+			(project "Connector_Extension_Board_V1.0"
+				(path "/632966f8-0e72-49d8-ae31-468f807051b0"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -13544,6 +13973,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "296-50500-1-ND"
+			(at 121.92 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "8ee105d3-874b-44a3-aca1-955ecac17665")
 		)
@@ -13634,7 +14072,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" ""
+		(property "Digikey" "1276-2876-1-ND"
 			(at 80.645 182.245 0)
 			(effects
 				(font
@@ -13832,6 +14270,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "296-50500-1-ND"
+			(at 294.005 89.535 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c8b6c728-c52a-4cf2-b3f4-40ed5b8cf4ff")
 		)
@@ -13987,7 +14434,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" ""
+		(property "Digikey" "587-1243-1-ND"
 			(at 87.63 199.39 0)
 			(effects
 				(font
@@ -14371,7 +14818,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" ""
+		(property "Digikey" "1276-2876-1-ND"
 			(at 191.135 229.87 0)
 			(effects
 				(font
@@ -14594,6 +15041,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -14802,7 +15250,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" ""
+		(property "Digikey" "587-1243-1-ND"
 			(at 255.905 153.67 0)
 			(effects
 				(font
@@ -15085,7 +15533,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF/50V/0603"
+		(property "Value" "100n/50V/0603"
 			(at 74.295 101.6 90)
 			(effects
 				(font
@@ -15121,7 +15569,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" ""
+		(property "Digikey" "587-1243-1-ND"
 			(at 80.645 93.345 0)
 			(effects
 				(font
@@ -15246,6 +15694,15 @@
 			)
 		)
 		(property "DIGIKEY" "296-TPS1HC30BQPWPRQ1CT-ND"
+			(at 130.81 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "296-TPS1HC30BQPWPRQ1CT-ND"
 			(at 130.81 35.56 0)
 			(effects
 				(font
@@ -15559,7 +16016,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" ""
+		(property "Digikey" "311-10.0KHRCT-ND"
 			(at 158.75 45.72 0)
 			(effects
 				(font
@@ -15835,7 +16292,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02"
+		(property "Value" "5-104361-1"
 			(at 393.192 84.3971 0)
 			(effects
 				(font
@@ -15904,6 +16361,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -15975,7 +16433,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" ""
+		(property "Digikey" "587-1243-1-ND"
 			(at 88.265 151.13 0)
 			(effects
 				(font
@@ -16099,7 +16557,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" ""
+		(property "Digikey" "1276-2876-1-ND"
 			(at 360.68 135.89 0)
 			(effects
 				(font
@@ -16174,7 +16632,7 @@
 		(at 387.985 180.34 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -16291,7 +16749,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" ""
+		(property "Digikey" "1276-1068-1-ND"
 			(at 191.135 84.455 0)
 			(effects
 				(font
@@ -16379,7 +16837,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02"
+		(property "Value" "5-104361-1"
 			(at 391.16 134.6199 0)
 			(effects
 				(font
@@ -16448,6 +16906,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -16991,7 +17450,7 @@
 		(at 274.955 204.47 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(uuid "a7d9c66e-7901-45fc-9627-1f4f7de830a6")
@@ -17040,7 +17499,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" ""
+		(property "Digikey" "NC"
 			(at 274.955 204.47 0)
 			(effects
 				(font
@@ -17164,7 +17623,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" ""
+		(property "Digikey" "RMCF0603FT1K00CT-ND"
 			(at 158.75 39.37 0)
 			(effects
 				(font
@@ -17311,6 +17770,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -17388,7 +17848,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" ""
+		(property "Digikey" "587-1243-1-ND"
 			(at 260.35 199.39 0)
 			(effects
 				(font
@@ -17708,7 +18168,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" ""
+		(property "Digikey" "1276-2876-1-ND"
 			(at 248.92 136.525 0)
 			(effects
 				(font
@@ -17841,6 +18301,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "296-50500-1-ND"
+			(at 295.91 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c35b531f-0e59-4b7d-98fe-a5cbbb200019")
 		)
@@ -17882,7 +18351,7 @@
 		(at 102.87 201.93 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(uuid "b75f4233-5a27-4f85-a618-0144d02945ea")
@@ -17931,7 +18400,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" ""
+		(property "Digikey" "NC"
 			(at 102.87 201.93 0)
 			(effects
 				(font
@@ -18259,6 +18728,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "296-50500-1-ND"
+			(at 123.825 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "a826969c-50b7-4733-ae75-f1cacb82167d")
 		)
@@ -18424,6 +18902,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "900-2157601003-ND"
+			(at 36.195 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d639fd35-d1a5-4acd-b8c9-a7d70e9db179")
 		)
@@ -18496,7 +18983,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" ""
+		(property "Digikey" "P12.7HCT-ND"
 			(at 180.34 41.91 0)
 			(effects
 				(font
@@ -18574,7 +19061,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF/50V/0603"
+		(property "Value" "100n/50V/0603"
 			(at 83.82 38.1 90)
 			(effects
 				(font
@@ -18610,7 +19097,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" ""
+		(property "Digikey" "587-1243-1-ND"
 			(at 87.63 26.67 0)
 			(effects
 				(font
@@ -18734,7 +19221,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" ""
+		(property "Digikey" "1276-2876-1-ND"
 			(at 363.22 85.725 0)
 			(effects
 				(font
@@ -18809,7 +19296,7 @@
 		(at 104.14 104.775 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(uuid "c299c8cc-636f-44b8-a9ce-8dbdf1dc102e")
@@ -18858,7 +19345,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" ""
+		(property "Digikey" "NC"
 			(at 104.14 104.775 0)
 			(effects
 				(font
@@ -18982,7 +19469,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" ""
+		(property "Digikey" "1276-2876-1-ND"
 			(at 67.31 85.09 0)
 			(effects
 				(font
@@ -19236,7 +19723,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" ""
+		(property "Digikey" "587-1243-1-ND"
 			(at 258.445 103.505 0)
 			(effects
 				(font
@@ -19507,7 +19994,7 @@
 		(at 387.985 177.8 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -19641,7 +20128,7 @@
 		(at 272.415 108.585 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(uuid "e522eb9f-af82-46be-9e1a-69bbf665d469")
@@ -19690,7 +20177,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" ""
+		(property "Digikey" "NC"
 			(at 272.415 108.585 0)
 			(effects
 				(font
@@ -19879,7 +20366,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" ""
+		(property "Digikey" "311-590HRCT-ND"
 			(at 156.845 98.425 0)
 			(effects
 				(font
@@ -19944,7 +20431,7 @@
 		(at 269.875 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(uuid "ed1fe7e8-7be0-4499-8029-5282913812b6")
@@ -19993,7 +20480,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" ""
+		(property "Digikey" "NC"
 			(at 269.875 158.75 0)
 			(effects
 				(font
@@ -20215,6 +20702,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -20357,7 +20845,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" ""
+		(property "Digikey" "311-715KHRCT-ND"
 			(at 24.765 92.71 0)
 			(effects
 				(font

@@ -48,7 +48,7 @@
       "drc_warnings",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_0fffff75_fffdffff",
+    "visible_layers": "00000000_00000000_0ffffff5_ffffffff",
     "zone_display_mode": 0
   },
   "git": {
@@ -57,7 +57,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "Power_management_V2.kicad_prl",
+    "filename": "Connector_Extension_Board_V1.0.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
