@@ -1657,6 +1657,12 @@
 		(uuid "b57bafc1-3c98-4402-8efe-fb655da59b95")
 	)
 	(junction
+		(at 186.69 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bade807f-b1b9-46b5-bf61-943bab7ca20a")
+	)
+	(junction
 		(at 247.65 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1679,6 +1685,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d588f883-f5bc-49f2-8e7d-0382b7667909")
+	)
+	(junction
+		(at 186.69 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "daf7b583-5fa9-41b1-9bf6-a73fd2b5ccbe")
 	)
 	(junction
 		(at 209.55 109.22)
@@ -1846,7 +1858,7 @@
 	)
 	(wire
 		(pts
-			(xy 174.625 116.84) (xy 199.39 116.84)
+			(xy 174.625 116.84) (xy 186.69 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1996,6 +2008,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 116.84) (xy 199.39 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85cae883-ca98-4cbb-b2dc-9dea48c314c6")
+	)
+	(wire
+		(pts
 			(xy 158.115 96.52) (xy 158.115 88.9)
 		)
 		(stroke
@@ -2073,6 +2095,16 @@
 			(type default)
 		)
 		(uuid "98a3b6c8-eff7-4670-9853-05a3d0f3c4e4")
+	)
+	(wire
+		(pts
+			(xy 186.69 109.22) (xy 199.39 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99654449-0ecf-4cc7-be54-ac2794f9f496")
 	)
 	(wire
 		(pts
@@ -2336,7 +2368,7 @@
 	)
 	(wire
 		(pts
-			(xy 174.625 109.22) (xy 199.39 109.22)
+			(xy 174.625 109.22) (xy 186.69 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2600,7 +2632,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C52306"
 			(at 219.075 113.03 0)
 			(effects
 				(font
@@ -2757,7 +2789,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C52306"
 			(at 199.39 134.62 0)
 			(effects
 				(font
@@ -2914,7 +2946,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C52306"
 			(at 209.55 113.03 0)
 			(effects
 				(font
@@ -3137,7 +3169,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C15849"
+		(property "JLCPCB Part #" "C5199872"
 			(at 158.115 85.09 0)
 			(effects
 				(font
@@ -3294,7 +3326,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C52306"
 			(at 228.6 134.62 0)
 			(effects
 				(font
@@ -3803,7 +3835,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C52306"
 			(at 247.65 134.62 0)
 			(effects
 				(font
@@ -3846,7 +3878,7 @@
 			)
 		)
 		(property "Value" "100n/50V/0603"
-			(at 171.45 120.65 0)
+			(at 171.45 126.365 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3959,7 +3991,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C1591"
+		(property "JLCPCB Part #" "C3011652"
 			(at 174.625 113.03 0)
 			(effects
 				(font
@@ -4116,7 +4148,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C52306"
 			(at 219.075 134.62 0)
 			(effects
 				(font
@@ -4261,7 +4293,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C861179"
 			(at 165.735 104.14 0)
 			(effects
 				(font
@@ -4418,7 +4450,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C52306"
 			(at 228.6 113.03 0)
 			(effects
 				(font
@@ -4862,7 +4894,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C52306"
 			(at 238.125 134.62 0)
 			(effects
 				(font
@@ -5010,7 +5042,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C14675"
 			(at 147.955 71.12 0)
 			(effects
 				(font
@@ -5167,7 +5199,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C52306"
 			(at 238.125 113.03 0)
 			(effects
 				(font
@@ -5186,6 +5218,162 @@
 			(project "Power_management_V2"
 				(path "/632966f8-0e72-49d8-ae31-468f807051b0/ea320acb-942d-4621-955d-3f03cfc2bafa"
 					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 186.69 113.03 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8abb4421-e033-4323-b802-d7f6eac6ee6c")
+		(property "Reference" "C11"
+			(at 189.611 111.8178 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100n/50V/0603"
+			(at 182.245 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 185.7248 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 186.69 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "587-1243-1-ND"
+			(at 186.69 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 186.69 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Coefficient" "X7R"
+			(at 186.69 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50"
+			(at 186.69 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Taiyo Yuden"
+			(at 186.69 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "UMK107B7104KA-T"
+			(at 186.69 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 186.69 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 186.69 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 186.69 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C3011652"
+			(at 186.69 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "18acd2fd-e780-49b1-8da6-d1f05278d5ca")
+		)
+		(pin "2"
+			(uuid "087ebf1c-acc0-4013-a003-a80b32b6d5f7")
+		)
+		(instances
+			(project "Power_management_V2"
+				(path "/632966f8-0e72-49d8-ae31-468f807051b0/ea320acb-942d-4621-955d-3f03cfc2bafa"
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -5323,7 +5511,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C1591"
+		(property "JLCPCB Part #" "C3011652"
 			(at 109.855 92.71 0)
 			(effects
 				(font
@@ -5471,7 +5659,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C105574"
 			(at 147.32 91.44 0)
 			(effects
 				(font
@@ -5628,7 +5816,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C52306"
 			(at 247.65 113.03 0)
 			(effects
 				(font
@@ -5776,7 +5964,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C14675"
 			(at 147.955 78.74 0)
 			(effects
 				(font
@@ -5930,7 +6118,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C2831487"
 			(at 147.955 109.22 0)
 			(effects
 				(font
@@ -6077,7 +6265,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C95204"
 			(at 153.035 100.33 0)
 			(effects
 				(font
@@ -6234,7 +6422,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C52306"
 			(at 199.39 113.03 0)
 			(effects
 				(font
@@ -6380,7 +6568,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C144672"
 			(at 109.855 87.63 0)
 			(effects
 				(font
@@ -6422,7 +6610,7 @@
 				)
 			)
 		)
-		(property "Value" "SIC43x"
+		(property "Value" "SIC437AED"
 			(at 129.54 67.31 0)
 			(effects
 				(font
@@ -6508,7 +6696,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C2071432"
 			(at 130.175 86.36 0)
 			(effects
 				(font
@@ -6743,7 +6931,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C52306"
 			(at 209.55 134.62 0)
 			(effects
 				(font
@@ -6899,7 +7087,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C1591"
+		(property "JLCPCB Part #" "C3011652"
 			(at 78.74 74.93 0)
 			(effects
 				(font
@@ -6976,7 +7164,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "NC"
 			(at 127 128.905 0)
 			(effects
 				(font
@@ -7158,7 +7346,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7u/50V/1206"
+		(property "Value" "4.7u/50V/0805"
 			(at 160.02 120.65 0)
 			(effects
 				(font
@@ -7167,7 +7355,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Library:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 141.9098 121.92 0)
 			(effects
 				(font
@@ -7194,7 +7382,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "490-14384-1-ND"
+		(property "Digikey" "490-GRM21BZ71H475ME15KCT-ND"
 			(at 142.875 118.11 0)
 			(effects
 				(font
@@ -7273,7 +7461,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C51205"
+		(property "JLCPCB Part #" "C437557"
 			(at 142.875 118.11 0)
 			(effects
 				(font

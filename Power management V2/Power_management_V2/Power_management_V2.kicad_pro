@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.0,
-          "height": 8.4,
-          "width": 4.0
+          "drill": 1.05,
+          "height": 2.0,
+          "width": 1.55
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -49,7 +49,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.3
+          "min_clearance": 0.15
         }
       },
       "diff_pair_dimensions": [
@@ -77,23 +77,27 @@
           ""
         ],
         [
-          "footprint_type_mismatch|120252000|68499800|e119ec79-d9ad-4f0d-8a45-b0c8cf7114b4|00000000-0000-0000-0000-000000000000",
+          "clearance|99241618|60699800|2788ca2a-f6f7-4165-9714-30ca5283416c|a269aca6-5619-443e-a20a-96474630335f",
           ""
         ],
         [
-          "solder_mask_bridge|102354448|87359800|7746d529-377e-4d4a-92d5-029115e7f65d|03545b70-0e3a-4401-a1ec-e76f7c24ee39",
+          "hole_clearance|99241618|60699800|a269aca6-5619-443e-a20a-96474630335f|2788ca2a-f6f7-4165-9714-30ca5283416c",
           ""
         ],
         [
-          "solder_mask_bridge|102584448|87499800|3fa3a498-47f6-453b-b921-7de9c3129160|9322946d-667c-4dd5-9f3b-14f7f41113f4",
+          "solder_mask_bridge|102354448|87359800|7746d529-377e-4d4a-92d5-029115e7f65d|181a3be3-bfc3-4eff-92c0-1f43ceaaf612",
           ""
         ],
         [
-          "solder_mask_bridge|99111618|59944800|eedab24c-7625-4630-8777-628b69bf8960|76614bcb-1da2-43b8-89f2-de8f5981f6a2",
+          "solder_mask_bridge|102584448|87499800|3fa3a498-47f6-453b-b921-7de9c3129160|151e7cb3-19ad-4cbb-af7c-a1f9cac25005",
           ""
         ],
         [
-          "solder_mask_bridge|99341618|60084800|c7441e29-7122-49b0-b98c-98b391aae2ab|8979e3cb-c5b6-40e0-9023-081d166f5e31",
+          "solder_mask_bridge|99111618|59944800|eedab24c-7625-4630-8777-628b69bf8960|2788ca2a-f6f7-4165-9714-30ca5283416c",
+          ""
+        ],
+        [
+          "solder_mask_bridge|99341618|60084800|c7441e29-7122-49b0-b98c-98b391aae2ab|69c326c4-71c6-4d84-a932-4a4029c695fa",
           ""
         ]
       ],
@@ -726,7 +730,7 @@
           "group_by": false,
           "label": "JLCPCB Part #",
           "name": "JLCPCB Part #",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
