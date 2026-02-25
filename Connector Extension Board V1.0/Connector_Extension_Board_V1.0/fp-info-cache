@@ -1,4 +1,4 @@
-24762113355639147
+24765686436529406
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -65884,6 +65884,13 @@ MOLEX_2157601003
 3
 3
 Library
+MOLEX_2157601004
+
+
+0
+4
+4
+Library
 MOLEX_2165711003
 
 
@@ -65911,6 +65918,13 @@ MOLEX_1723103102
 0
 4
 4
+Library
+MOLEX_1723103104
+
+
+0
+6
+5
 Library
 MountingHole_3.1-5.8
 
