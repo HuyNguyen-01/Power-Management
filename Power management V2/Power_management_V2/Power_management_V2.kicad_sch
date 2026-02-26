@@ -1142,9 +1142,9 @@
 		)
 		(uuid "b2a98e30-d46f-4e38-b4c8-d63ca06a8850")
 	)
-	(text "Imax: 13A\nPitch:3.00mm\nMates with: 2157591003 \nCrimp Terminal, Female:2064600041 (13A max - 16 AWG)"
+	(text "Imax: 14A\nPitch:3.50mm\nMates with: 1722563104 \nCrimp Terminal, Female:1722537023 (14A max - 16 AWG)"
 		(exclude_from_sim no)
-		(at 205.105 109.22 0)
+		(at 205.74 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
